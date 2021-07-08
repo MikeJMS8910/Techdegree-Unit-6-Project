@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "Java Script"],
             "live_link": "https://mikejms8910.github.io/RandomQuoteGenerator2/",
             "github_link": "https://github.com/MikeJMS8910/RandomQuoteGenerator2",
-            "image_urls": "./Images/P1I2"
+            "image_urls": "/images/P1I2.png"
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "Java Script"],
             "live_link": "https://mikejms8910.github.io/Techdegree-Unit-2-Project/",
             "github_link": "https://github.com/MikeJMS8910/Techdegree-Unit-2-Project",
-            "image_urls": "./Images/P2I2"
+            "image_urls": "/images/P2I2.png"
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "Java Script"],
             "live_link": "https://mikejms8910.github.io/Techdegree-Unit-3-Project/",
             "github_link": "https://github.com/MikeJMS8910/Techdegree-Unit-3-Project",
-            "image_urls": "./Images/P3I2"
+            "image_urls": "/images/P3I2.png"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "Java Script"],
             "live_link": "https://mikejms8910.github.io/Techdegree-Unit-4-Project/",
             "github_link": "https://github.com/MikeJMS8910/Techdegree-Unit-4-Project",
-            "image_urls": "./Images/P4I2"
+            "image_urls": "/images/P4I2.png"
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "Java Script"],
             "live_link": "https://mikejms8910.github.io/Techdegree-Unit-5-Project/",
             "github_link": "https://github.com/MikeJMS8910/Techdegree-Unit-5-Project",
-            "image_urls": "./Images/P5I2"
+            "image_urls": "/images/P5I2.png"
         }
     ]
 }
