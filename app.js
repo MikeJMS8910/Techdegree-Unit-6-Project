@@ -21,13 +21,15 @@ app.get('/about', (req, res) => { //when the user goes to the about route
 app.get('/project/:id', (req, res) => { //when the user goes to a project route
     if(req.params.id >= 0 && req.params.id <= 4) { //checks if the id is valid
         let project_data = data.projects[req.params.id]
-        res.render("project", {name: project_data.project_name, discription: project_data.discription, tech: project_data.technologies, link: project_data.live_link, git: project_data.github_link, image: project_data.image_urls})
+        res.render("project", {name: project_data.project_name, description: project_data.description, tech: project_data.technologies, link: project_data.live_link, git: project_data.github_link, image: project_data.image_urls})
     } else {
         res.send("404: Page not found. Please make sure that your route is valid.")
+        console.error("404: The page that you went to does not exist.")
     }
 });
 
 
 app.use(function (req, res, next) { //catches 404 errors
     res.status(404).send("404: Page not found. Please make sure that your route is valid.")
+    console.error("404: The page that you went to does not exist.")
 })
